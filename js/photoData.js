@@ -1,6 +1,6 @@
 const photoData = [
   {
-    "fullPath": "../photos/15a53b52-2a65-4822-a64e-a1589c59e4a4.jpeg",
+    "fullPath": "./photos/15a53b52-2a65-4822-a64e-a1589c59e4a4.jpeg",
     "thumbnail": "./thumbnails/15a53b52-2a65-4822-a64e-a1589c59e4a4.jpeg",
     "latitude": 50.948394,
     "longitude": 6.888222,
@@ -15,7 +15,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0011.jpeg",
+    "fullPath": "./photos/IMG_0011.jpeg",
     "thumbnail": "./thumbnails/IMG_0011.jpeg",
     "latitude": 52.497528,
     "longitude": 13.359636,
@@ -30,7 +30,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0025.jpeg",
+    "fullPath": "./photos/IMG_0025.jpeg",
     "thumbnail": "./thumbnails/IMG_0025.jpeg",
     "latitude": 52.083569,
     "longitude": 4.300586,
@@ -45,7 +45,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/343fbe03-c4ff-4b47-9846-2a12dab77d79.jpeg",
+    "fullPath": "./photos/343fbe03-c4ff-4b47-9846-2a12dab77d79.jpeg",
     "thumbnail": "./thumbnails/343fbe03-c4ff-4b47-9846-2a12dab77d79.jpeg",
     "latitude": 45.986486,
     "longitude": 9.214894,
@@ -60,7 +60,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0030.jpeg",
+    "fullPath": "./photos/IMG_0030.jpeg",
     "thumbnail": "./thumbnails/IMG_0030.jpeg",
     "latitude": 52.091678,
     "longitude": 5.117861,
@@ -75,7 +75,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0308.jpeg",
+    "fullPath": "./photos/IMG_0308.jpeg",
     "thumbnail": "./thumbnails/IMG_0308.jpeg",
     "latitude": 53.496131,
     "longitude": 9.995192,
@@ -90,7 +90,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0307.jpeg",
+    "fullPath": "./photos/IMG_0307.jpeg",
     "thumbnail": "./thumbnails/IMG_0307.jpeg",
     "latitude": 53.495664,
     "longitude": 9.995039,
@@ -105,7 +105,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0157.jpeg",
+    "fullPath": "./photos/IMG_0157.jpeg",
     "thumbnail": "./thumbnails/IMG_0157.jpeg",
     "latitude": 50.934978,
     "longitude": 6.920578,
@@ -120,7 +120,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0346.jpeg",
+    "fullPath": "./photos/IMG_0346.jpeg",
     "thumbnail": "./thumbnails/IMG_0346.jpeg",
     "latitude": 50.943908,
     "longitude": 6.911858,
@@ -135,7 +135,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0353.jpeg",
+    "fullPath": "./photos/IMG_0353.jpeg",
     "thumbnail": "./thumbnails/IMG_0353.jpeg",
     "latitude": 50.947692,
     "longitude": 6.904522,
@@ -150,7 +150,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0653.jpeg",
+    "fullPath": "./photos/IMG_0653.jpeg",
     "thumbnail": "./thumbnails/IMG_0653.jpeg",
     "latitude": 50.9495,
     "longitude": 6.907511,
@@ -165,7 +165,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0408.jpeg",
+    "fullPath": "./photos/IMG_0408.jpeg",
     "thumbnail": "./thumbnails/IMG_0408.jpeg",
     "latitude": 52.11615,
     "longitude": 4.287325,
@@ -180,7 +180,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0393.jpeg",
+    "fullPath": "./photos/IMG_0393.jpeg",
     "thumbnail": "./thumbnails/IMG_0393.jpeg",
     "latitude": 52.08075,
     "longitude": 4.307447,
@@ -195,7 +195,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0647.jpeg",
+    "fullPath": "./photos/IMG_0647.jpeg",
     "thumbnail": "./thumbnails/IMG_0647.jpeg",
     "latitude": 51.195994,
     "longitude": 6.691714,
@@ -210,7 +210,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0904.jpeg",
+    "fullPath": "./photos/IMG_0904.jpeg",
     "thumbnail": "./thumbnails/IMG_0904.jpeg",
     "latitude": 50.944308,
     "longitude": 6.910844,
@@ -225,7 +225,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0761.jpeg",
+    "fullPath": "./photos/IMG_0761.jpeg",
     "thumbnail": "./thumbnails/IMG_0761.jpeg",
     "latitude": 35.039708,
     "longitude": 25.981419,
@@ -240,7 +240,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_0903.jpeg",
+    "fullPath": "./photos/IMG_0903.jpeg",
     "thumbnail": "./thumbnails/IMG_0903.jpeg",
     "latitude": 50.944186,
     "longitude": 6.911711,
@@ -255,7 +255,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_1139.jpeg",
+    "fullPath": "./photos/IMG_1139.jpeg",
     "thumbnail": "./thumbnails/IMG_1139.jpeg",
     "latitude": 52.028358,
     "longitude": 8.499403,
@@ -270,7 +270,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_1686.jpeg",
+    "fullPath": "./photos/IMG_1686.jpeg",
     "thumbnail": "./thumbnails/IMG_1686.jpeg",
     "latitude": 51.11905,
     "longitude": 6.851369,
@@ -285,7 +285,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_1426.jpeg",
+    "fullPath": "./photos/IMG_1426.jpeg",
     "thumbnail": "./thumbnails/IMG_1426.jpeg",
     "latitude": 50.853608,
     "longitude": 5.687525,
@@ -300,7 +300,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2015.jpeg",
+    "fullPath": "./photos/IMG_2015.jpeg",
     "thumbnail": "./thumbnails/IMG_2015.jpeg",
     "latitude": 50.926075,
     "longitude": 6.936786,
@@ -315,7 +315,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_1141.jpeg",
+    "fullPath": "./photos/IMG_1141.jpeg",
     "thumbnail": "./thumbnails/IMG_1141.jpeg",
     "latitude": 52.024589,
     "longitude": 8.507853,
@@ -330,7 +330,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2070.jpeg",
+    "fullPath": "./photos/IMG_2070.jpeg",
     "thumbnail": "./thumbnails/IMG_2070.jpeg",
     "latitude": 48.132164,
     "longitude": 11.580008,
@@ -345,7 +345,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2138.jpeg",
+    "fullPath": "./photos/IMG_2138.jpeg",
     "thumbnail": "./thumbnails/IMG_2138.jpeg",
     "latitude": 41.216092,
     "longitude": 1.732539,
@@ -360,7 +360,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2121.jpeg",
+    "fullPath": "./photos/IMG_2121.jpeg",
     "thumbnail": "./thumbnails/IMG_2121.jpeg",
     "latitude": 41.213292,
     "longitude": 1.725017,
@@ -375,7 +375,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2114.jpeg",
+    "fullPath": "./photos/IMG_2114.jpeg",
     "thumbnail": "./thumbnails/IMG_2114.jpeg",
     "latitude": 41.217114,
     "longitude": 1.728564,
@@ -390,7 +390,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2115.jpeg",
+    "fullPath": "./photos/IMG_2115.jpeg",
     "thumbnail": "./thumbnails/IMG_2115.jpeg",
     "latitude": 41.214947,
     "longitude": 1.727242,
@@ -405,7 +405,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2140.jpeg",
+    "fullPath": "./photos/IMG_2140.jpeg",
     "thumbnail": "./thumbnails/IMG_2140.jpeg",
     "latitude": 41.224231,
     "longitude": 1.750131,
@@ -420,7 +420,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2155.jpeg",
+    "fullPath": "./photos/IMG_2155.jpeg",
     "thumbnail": "./thumbnails/IMG_2155.jpeg",
     "latitude": 41.235478,
     "longitude": 1.813289,
@@ -435,7 +435,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2142.jpeg",
+    "fullPath": "./photos/IMG_2142.jpeg",
     "thumbnail": "./thumbnails/IMG_2142.jpeg",
     "latitude": 41.227192,
     "longitude": 1.748189,
@@ -450,7 +450,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2159.jpeg",
+    "fullPath": "./photos/IMG_2159.jpeg",
     "thumbnail": "./thumbnails/IMG_2159.jpeg",
     "latitude": 41.236183,
     "longitude": 1.809539,
@@ -465,7 +465,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2160.jpeg",
+    "fullPath": "./photos/IMG_2160.jpeg",
     "thumbnail": "./thumbnails/IMG_2160.jpeg",
     "latitude": 41.238892,
     "longitude": 1.809308,
@@ -480,7 +480,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2190.jpeg",
+    "fullPath": "./photos/IMG_2190.jpeg",
     "thumbnail": "./thumbnails/IMG_2190.jpeg",
     "latitude": 41.219775,
     "longitude": 1.727228,
@@ -495,7 +495,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2194.jpeg",
+    "fullPath": "./photos/IMG_2194.jpeg",
     "thumbnail": "./thumbnails/IMG_2194.jpeg",
     "latitude": 41.136367,
     "longitude": 1.374558,
@@ -510,7 +510,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2196.jpeg",
+    "fullPath": "./photos/IMG_2196.jpeg",
     "thumbnail": "./thumbnails/IMG_2196.jpeg",
     "latitude": 41.141042,
     "longitude": 1.377294,
@@ -525,7 +525,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2199.jpeg",
+    "fullPath": "./photos/IMG_2199.jpeg",
     "thumbnail": "./thumbnails/IMG_2199.jpeg",
     "latitude": 41.140611,
     "longitude": 1.376892,
@@ -540,7 +540,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2195.jpeg",
+    "fullPath": "./photos/IMG_2195.jpeg",
     "thumbnail": "./thumbnails/IMG_2195.jpeg",
     "latitude": 41.137672,
     "longitude": 1.378431,
@@ -555,7 +555,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2200.jpeg",
+    "fullPath": "./photos/IMG_2200.jpeg",
     "thumbnail": "./thumbnails/IMG_2200.jpeg",
     "latitude": 41.139422,
     "longitude": 1.376756,
@@ -570,7 +570,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2202.jpeg",
+    "fullPath": "./photos/IMG_2202.jpeg",
     "thumbnail": "./thumbnails/IMG_2202.jpeg",
     "latitude": 41.133981,
     "longitude": 1.377403,
@@ -585,7 +585,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2378.jpeg",
+    "fullPath": "./photos/IMG_2378.jpeg",
     "thumbnail": "./thumbnails/IMG_2378.jpeg",
     "latitude": 41.375947,
     "longitude": 2.164914,
@@ -600,7 +600,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2344.jpeg",
+    "fullPath": "./photos/IMG_2344.jpeg",
     "thumbnail": "./thumbnails/IMG_2344.jpeg",
     "latitude": 41.209106,
     "longitude": 1.709131,
@@ -615,7 +615,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2346.jpeg",
+    "fullPath": "./photos/IMG_2346.jpeg",
     "thumbnail": "./thumbnails/IMG_2346.jpeg",
     "latitude": 41.207822,
     "longitude": 1.704811,
@@ -630,7 +630,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2379.jpeg",
+    "fullPath": "./photos/IMG_2379.jpeg",
     "thumbnail": "./thumbnails/IMG_2379.jpeg",
     "latitude": 41.376136,
     "longitude": 2.164306,
@@ -645,7 +645,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2399.jpeg",
+    "fullPath": "./photos/IMG_2399.jpeg",
     "thumbnail": "./thumbnails/IMG_2399.jpeg",
     "latitude": 41.224261,
     "longitude": 1.726181,
@@ -660,7 +660,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2383.jpeg",
+    "fullPath": "./photos/IMG_2383.jpeg",
     "thumbnail": "./thumbnails/IMG_2383.jpeg",
     "latitude": 41.379864,
     "longitude": 2.166772,
@@ -675,7 +675,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2394.jpeg",
+    "fullPath": "./photos/IMG_2394.jpeg",
     "thumbnail": "./thumbnails/IMG_2394.jpeg",
     "latitude": 41.389569,
     "longitude": 2.186861,
@@ -690,7 +690,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2393.jpeg",
+    "fullPath": "./photos/IMG_2393.jpeg",
     "thumbnail": "./thumbnails/IMG_2393.jpeg",
     "latitude": 41.388931,
     "longitude": 2.186403,
@@ -705,7 +705,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2449.jpeg",
+    "fullPath": "./photos/IMG_2449.jpeg",
     "thumbnail": "./thumbnails/IMG_2449.jpeg",
     "latitude": 41.213422,
     "longitude": 1.723653,
@@ -720,7 +720,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2426.jpeg",
+    "fullPath": "./photos/IMG_2426.jpeg",
     "thumbnail": "./thumbnails/IMG_2426.jpeg",
     "latitude": 41.112331,
     "longitude": 1.254544,
@@ -735,7 +735,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2427.jpeg",
+    "fullPath": "./photos/IMG_2427.jpeg",
     "thumbnail": "./thumbnails/IMG_2427.jpeg",
     "latitude": 41.114219,
     "longitude": 1.257983,
@@ -750,7 +750,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2620.jpeg",
+    "fullPath": "./photos/IMG_2620.jpeg",
     "thumbnail": "./thumbnails/IMG_2620.jpeg",
     "latitude": 59.324031,
     "longitude": 18.071153,
@@ -765,7 +765,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2624.jpeg",
+    "fullPath": "./photos/IMG_2624.jpeg",
     "thumbnail": "./thumbnails/IMG_2624.jpeg",
     "latitude": 59.328792,
     "longitude": 18.101594,
@@ -780,7 +780,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2671.jpeg",
+    "fullPath": "./photos/IMG_2671.jpeg",
     "thumbnail": "./thumbnails/IMG_2671.jpeg",
     "latitude": 59.314992,
     "longitude": 18.060958,
@@ -795,7 +795,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2627.jpeg",
+    "fullPath": "./photos/IMG_2627.jpeg",
     "thumbnail": "./thumbnails/IMG_2627.jpeg",
     "latitude": 59.331822,
     "longitude": 18.103431,
@@ -810,7 +810,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2883.jpeg",
+    "fullPath": "./photos/IMG_2883.jpeg",
     "thumbnail": "./thumbnails/IMG_2883.jpeg",
     "latitude": 50.940219,
     "longitude": 6.88775,
@@ -825,7 +825,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_2991.jpeg",
+    "fullPath": "./photos/IMG_2991.jpeg",
     "thumbnail": "./thumbnails/IMG_2991.jpeg",
     "latitude": 51.40795,
     "longitude": 7.694944,
@@ -840,7 +840,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3043.jpeg",
+    "fullPath": "./photos/IMG_3043.jpeg",
     "thumbnail": "./thumbnails/IMG_3043.jpeg",
     "latitude": 50.926278,
     "longitude": 6.90875,
@@ -855,7 +855,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3153.jpeg",
+    "fullPath": "./photos/IMG_3153.jpeg",
     "thumbnail": "./thumbnails/IMG_3153.jpeg",
     "latitude": 55.666306,
     "longitude": 12.612247,
@@ -870,7 +870,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3193.jpeg",
+    "fullPath": "./photos/IMG_3193.jpeg",
     "thumbnail": "./thumbnails/IMG_3193.jpeg",
     "latitude": 55.662247,
     "longitude": 12.632894,
@@ -885,7 +885,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3017.jpeg",
+    "fullPath": "./photos/IMG_3017.jpeg",
     "thumbnail": "./thumbnails/IMG_3017.jpeg",
     "latitude": 50.944172,
     "longitude": 6.898375,
@@ -900,7 +900,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3150.jpeg",
+    "fullPath": "./photos/IMG_3150.jpeg",
     "thumbnail": "./thumbnails/IMG_3150.jpeg",
     "latitude": 55.710675,
     "longitude": 12.537258,
@@ -915,7 +915,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3277.jpeg",
+    "fullPath": "./photos/IMG_3277.jpeg",
     "thumbnail": "./thumbnails/IMG_3277.jpeg",
     "latitude": 55.672103,
     "longitude": 12.579242,
@@ -930,7 +930,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3254.jpeg",
+    "fullPath": "./photos/IMG_3254.jpeg",
     "thumbnail": "./thumbnails/IMG_3254.jpeg",
     "latitude": 55.670611,
     "longitude": 12.58435,
@@ -945,7 +945,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3253.jpeg",
+    "fullPath": "./photos/IMG_3253.jpeg",
     "thumbnail": "./thumbnails/IMG_3253.jpeg",
     "latitude": 55.67175,
     "longitude": 12.591725,
@@ -960,7 +960,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3245.jpeg",
+    "fullPath": "./photos/IMG_3245.jpeg",
     "thumbnail": "./thumbnails/IMG_3245.jpeg",
     "latitude": 55.665036,
     "longitude": 12.621981,
@@ -975,7 +975,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3228.jpeg",
+    "fullPath": "./photos/IMG_3228.jpeg",
     "thumbnail": "./thumbnails/IMG_3228.jpeg",
     "latitude": 55.646106,
     "longitude": 12.646864,
@@ -990,7 +990,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3283.jpeg",
+    "fullPath": "./photos/IMG_3283.jpeg",
     "thumbnail": "./thumbnails/IMG_3283.jpeg",
     "latitude": 55.681419,
     "longitude": 12.531089,
@@ -1005,7 +1005,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3314.jpeg",
+    "fullPath": "./photos/IMG_3314.jpeg",
     "thumbnail": "./thumbnails/IMG_3314.jpeg",
     "latitude": 55.640778,
     "longitude": 12.077172,
@@ -1020,7 +1020,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3289.jpeg",
+    "fullPath": "./photos/IMG_3289.jpeg",
     "thumbnail": "./thumbnails/IMG_3289.jpeg",
     "latitude": 55.664003,
     "longitude": 12.623006,
@@ -1035,7 +1035,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3313.jpeg",
+    "fullPath": "./photos/IMG_3313.jpeg",
     "thumbnail": "./thumbnails/IMG_3313.jpeg",
     "latitude": 55.640319,
     "longitude": 12.085944,
@@ -1050,7 +1050,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3294.jpeg",
+    "fullPath": "./photos/IMG_3294.jpeg",
     "thumbnail": "./thumbnails/IMG_3294.jpeg",
     "latitude": 55.701783,
     "longitude": 12.577233,
@@ -1065,7 +1065,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3380.jpeg",
+    "fullPath": "./photos/IMG_3380.jpeg",
     "thumbnail": "./thumbnails/IMG_3380.jpeg",
     "latitude": 55.787456,
     "longitude": 12.595206,
@@ -1080,7 +1080,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3316.jpeg",
+    "fullPath": "./photos/IMG_3316.jpeg",
     "thumbnail": "./thumbnails/IMG_3316.jpeg",
     "latitude": 55.648739,
     "longitude": 12.268842,
@@ -1095,7 +1095,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3348.jpeg",
+    "fullPath": "./photos/IMG_3348.jpeg",
     "thumbnail": "./thumbnails/IMG_3348.jpeg",
     "latitude": 55.681614,
     "longitude": 12.575567,
@@ -1110,7 +1110,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3322.jpeg",
+    "fullPath": "./photos/IMG_3322.jpeg",
     "thumbnail": "./thumbnails/IMG_3322.jpeg",
     "latitude": 55.695056,
     "longitude": 12.542867,
@@ -1125,7 +1125,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3381.jpeg",
+    "fullPath": "./photos/IMG_3381.jpeg",
     "thumbnail": "./thumbnails/IMG_3381.jpeg",
     "latitude": 55.785697,
     "longitude": 12.593717,
@@ -1140,7 +1140,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3434.jpeg",
+    "fullPath": "./photos/IMG_3434.jpeg",
     "thumbnail": "./thumbnails/IMG_3434.jpeg",
     "latitude": 55.600647,
     "longitude": 12.994156,
@@ -1155,7 +1155,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3428.jpeg",
+    "fullPath": "./photos/IMG_3428.jpeg",
     "thumbnail": "./thumbnails/IMG_3428.jpeg",
     "latitude": 55.596661,
     "longitude": 12.998844,
@@ -1170,7 +1170,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3427.jpeg",
+    "fullPath": "./photos/IMG_3427.jpeg",
     "thumbnail": "./thumbnails/IMG_3427.jpeg",
     "latitude": 55.596264,
     "longitude": 12.998625,
@@ -1185,7 +1185,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3432.jpeg",
+    "fullPath": "./photos/IMG_3432.jpeg",
     "thumbnail": "./thumbnails/IMG_3432.jpeg",
     "latitude": 55.601203,
     "longitude": 12.996144,
@@ -1200,7 +1200,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3436.jpeg",
+    "fullPath": "./photos/IMG_3436.jpeg",
     "thumbnail": "./thumbnails/IMG_3436.jpeg",
     "latitude": 55.600117,
     "longitude": 12.995422,
@@ -1215,7 +1215,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3441.jpeg",
+    "fullPath": "./photos/IMG_3441.jpeg",
     "thumbnail": "./thumbnails/IMG_3441.jpeg",
     "latitude": 55.595006,
     "longitude": 13.000581,
@@ -1230,7 +1230,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3464.jpeg",
+    "fullPath": "./photos/IMG_3464.jpeg",
     "thumbnail": "./thumbnails/IMG_3464.jpeg",
     "latitude": 55.604167,
     "longitude": 12.973881,
@@ -1245,7 +1245,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3899.jpeg",
+    "fullPath": "./photos/IMG_3899.jpeg",
     "thumbnail": "./thumbnails/IMG_3899.jpeg",
     "latitude": 55.663017,
     "longitude": 12.629819,
@@ -1260,7 +1260,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3477.jpeg",
+    "fullPath": "./photos/IMG_3477.jpeg",
     "thumbnail": "./thumbnails/IMG_3477.jpeg",
     "latitude": 55.929325,
     "longitude": 12.306956,
@@ -1275,7 +1275,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3905.jpeg",
+    "fullPath": "./photos/IMG_3905.jpeg",
     "thumbnail": "./thumbnails/IMG_3905.jpeg",
     "latitude": 55.662575,
     "longitude": 12.635444,
@@ -1290,7 +1290,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3916.jpeg",
+    "fullPath": "./photos/IMG_3916.jpeg",
     "thumbnail": "./thumbnails/IMG_3916.jpeg",
     "latitude": 55.658031,
     "longitude": 12.642311,
@@ -1305,7 +1305,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3906.jpeg",
+    "fullPath": "./photos/IMG_3906.jpeg",
     "thumbnail": "./thumbnails/IMG_3906.jpeg",
     "latitude": 55.662731,
     "longitude": 12.637131,
@@ -1320,7 +1320,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3907.jpeg",
+    "fullPath": "./photos/IMG_3907.jpeg",
     "thumbnail": "./thumbnails/IMG_3907.jpeg",
     "latitude": 55.662883,
     "longitude": 12.637911,
@@ -1335,7 +1335,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3917.jpeg",
+    "fullPath": "./photos/IMG_3917.jpeg",
     "thumbnail": "./thumbnails/IMG_3917.jpeg",
     "latitude": 55.662597,
     "longitude": 12.626494,
@@ -1350,7 +1350,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3935.jpeg",
+    "fullPath": "./photos/IMG_3935.jpeg",
     "thumbnail": "./thumbnails/IMG_3935.jpeg",
     "latitude": 55.671039,
     "longitude": 12.606583,
@@ -1365,7 +1365,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_3996.jpeg",
+    "fullPath": "./photos/IMG_3996.jpeg",
     "thumbnail": "./thumbnails/IMG_3996.jpeg",
     "latitude": 55.668297,
     "longitude": 12.531778,
@@ -1380,7 +1380,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4034.jpeg",
+    "fullPath": "./photos/IMG_4034.jpeg",
     "thumbnail": "./thumbnails/IMG_4034.jpeg",
     "latitude": 52.501228,
     "longitude": 13.455578,
@@ -1395,7 +1395,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4008.jpeg",
+    "fullPath": "./photos/IMG_4008.jpeg",
     "thumbnail": "./thumbnails/IMG_4008.jpeg",
     "latitude": 52.513292,
     "longitude": 13.455506,
@@ -1410,7 +1410,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4408.jpeg",
+    "fullPath": "./photos/IMG_4408.jpeg",
     "thumbnail": "./thumbnails/IMG_4408.jpeg",
     "latitude": 56.153911,
     "longitude": 10.199269,
@@ -1425,7 +1425,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4501.jpeg",
+    "fullPath": "./photos/IMG_4501.jpeg",
     "thumbnail": "./thumbnails/IMG_4501.jpeg",
     "latitude": 55.6687,
     "longitude": 12.627219,
@@ -1440,7 +1440,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4672.jpeg",
+    "fullPath": "./photos/IMG_4672.jpeg",
     "thumbnail": "./thumbnails/IMG_4672.jpeg",
     "latitude": 55.678458,
     "longitude": 12.527944,
@@ -1455,7 +1455,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4662.jpeg",
+    "fullPath": "./photos/IMG_4662.jpeg",
     "thumbnail": "./thumbnails/IMG_4662.jpeg",
     "latitude": 55.686597,
     "longitude": 12.593122,
@@ -1470,7 +1470,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4724.jpeg",
+    "fullPath": "./photos/IMG_4724.jpeg",
     "thumbnail": "./thumbnails/IMG_4724.jpeg",
     "latitude": 55.663136,
     "longitude": 12.620431,
@@ -1485,7 +1485,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4541.jpeg",
+    "fullPath": "./photos/IMG_4541.jpeg",
     "thumbnail": "./thumbnails/IMG_4541.jpeg",
     "latitude": 55.661833,
     "longitude": 12.620764,
@@ -1500,7 +1500,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4725.jpeg",
+    "fullPath": "./photos/IMG_4725.jpeg",
     "thumbnail": "./thumbnails/IMG_4725.jpeg",
     "latitude": 55.663414,
     "longitude": 12.621728,
@@ -1515,7 +1515,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4784.jpeg",
+    "fullPath": "./photos/IMG_4784.jpeg",
     "thumbnail": "./thumbnails/IMG_4784.jpeg",
     "latitude": 59.236736,
     "longitude": 17.980733,
@@ -1530,7 +1530,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4873.jpeg",
+    "fullPath": "./photos/IMG_4873.jpeg",
     "thumbnail": "./thumbnails/IMG_4873.jpeg",
     "latitude": 59.236692,
     "longitude": 17.981225,
@@ -1545,7 +1545,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4771.jpeg",
+    "fullPath": "./photos/IMG_4771.jpeg",
     "thumbnail": "./thumbnails/IMG_4771.jpeg",
     "latitude": 55.609264,
     "longitude": 13.001683,
@@ -1560,7 +1560,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4882.jpeg",
+    "fullPath": "./photos/IMG_4882.jpeg",
     "thumbnail": "./thumbnails/IMG_4882.jpeg",
     "latitude": 59.331264,
     "longitude": 18.059181,
@@ -1575,7 +1575,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4823.jpeg",
+    "fullPath": "./photos/IMG_4823.jpeg",
     "thumbnail": "./thumbnails/IMG_4823.jpeg",
     "latitude": 59.223836,
     "longitude": 18.021206,
@@ -1590,7 +1590,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4895.jpeg",
+    "fullPath": "./photos/IMG_4895.jpeg",
     "thumbnail": "./thumbnails/IMG_4895.jpeg",
     "latitude": 59.390431,
     "longitude": 18.340986,
@@ -1605,7 +1605,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4913.jpeg",
+    "fullPath": "./photos/IMG_4913.jpeg",
     "thumbnail": "./thumbnails/IMG_4913.jpeg",
     "latitude": 59.316217,
     "longitude": 18.075661,
@@ -1620,7 +1620,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4897.jpeg",
+    "fullPath": "./photos/IMG_4897.jpeg",
     "thumbnail": "./thumbnails/IMG_4897.jpeg",
     "latitude": 59.404667,
     "longitude": 18.345575,
@@ -1635,7 +1635,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4910.jpeg",
+    "fullPath": "./photos/IMG_4910.jpeg",
     "thumbnail": "./thumbnails/IMG_4910.jpeg",
     "latitude": 59.317436,
     "longitude": 18.141778,
@@ -1650,7 +1650,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4914.jpeg",
+    "fullPath": "./photos/IMG_4914.jpeg",
     "thumbnail": "./thumbnails/IMG_4914.jpeg",
     "latitude": 59.315731,
     "longitude": 18.074278,
@@ -1665,7 +1665,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4917.jpeg",
+    "fullPath": "./photos/IMG_4917.jpeg",
     "thumbnail": "./thumbnails/IMG_4917.jpeg",
     "latitude": 59.231347,
     "longitude": 18.011383,
@@ -1680,7 +1680,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4987.jpeg",
+    "fullPath": "./photos/IMG_4987.jpeg",
     "thumbnail": "./thumbnails/IMG_4987.jpeg",
     "latitude": 59.317981,
     "longitude": 18.074275,
@@ -1695,7 +1695,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5024.jpeg",
+    "fullPath": "./photos/IMG_5024.jpeg",
     "thumbnail": "./thumbnails/IMG_5024.jpeg",
     "latitude": 59.240775,
     "longitude": 17.994939,
@@ -1710,7 +1710,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_4993.jpeg",
+    "fullPath": "./photos/IMG_4993.jpeg",
     "thumbnail": "./thumbnails/IMG_4993.jpeg",
     "latitude": 59.331106,
     "longitude": 18.060475,
@@ -1725,7 +1725,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5038.jpeg",
+    "fullPath": "./photos/IMG_5038.jpeg",
     "thumbnail": "./thumbnails/IMG_5038.jpeg",
     "latitude": 52.091183,
     "longitude": 5.120167,
@@ -1740,7 +1740,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5083.jpeg",
+    "fullPath": "./photos/IMG_5083.jpeg",
     "thumbnail": "./thumbnails/IMG_5083.jpeg",
     "latitude": 59.307636,
     "longitude": 17.958569,
@@ -1755,7 +1755,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5099.jpeg",
+    "fullPath": "./photos/IMG_5099.jpeg",
     "thumbnail": "./thumbnails/IMG_5099.jpeg",
     "latitude": 59.288131,
     "longitude": 18.154383,
@@ -1770,7 +1770,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5042.jpeg",
+    "fullPath": "./photos/IMG_5042.jpeg",
     "thumbnail": "./thumbnails/IMG_5042.jpeg",
     "latitude": 59.178739,
     "longitude": 18.149528,
@@ -1785,7 +1785,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5046.jpeg",
+    "fullPath": "./photos/IMG_5046.jpeg",
     "thumbnail": "./thumbnails/IMG_5046.jpeg",
     "latitude": 59.168492,
     "longitude": 18.326983,
@@ -1800,7 +1800,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5137.jpeg",
+    "fullPath": "./photos/IMG_5137.jpeg",
     "thumbnail": "./thumbnails/IMG_5137.jpeg",
     "latitude": 59.236183,
     "longitude": 18.306581,
@@ -1815,7 +1815,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5139.jpeg",
+    "fullPath": "./photos/IMG_5139.jpeg",
     "thumbnail": "./thumbnails/IMG_5139.jpeg",
     "latitude": 59.232261,
     "longitude": 18.312372,
@@ -1830,7 +1830,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5233.jpeg",
+    "fullPath": "./photos/IMG_5233.jpeg",
     "thumbnail": "./thumbnails/IMG_5233.jpeg",
     "latitude": 50.926303,
     "longitude": 6.910031,
@@ -1845,7 +1845,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5247.jpeg",
+    "fullPath": "./photos/IMG_5247.jpeg",
     "thumbnail": "./thumbnails/IMG_5247.jpeg",
     "latitude": 50.925217,
     "longitude": 6.909622,
@@ -1860,7 +1860,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5159.jpeg",
+    "fullPath": "./photos/IMG_5159.jpeg",
     "thumbnail": "./thumbnails/IMG_5159.jpeg",
     "latitude": 59.328531,
     "longitude": 18.041156,
@@ -1875,7 +1875,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5255.jpeg",
+    "fullPath": "./photos/IMG_5255.jpeg",
     "thumbnail": "./thumbnails/IMG_5255.jpeg",
     "latitude": 50.926661,
     "longitude": 6.908475,
@@ -1890,7 +1890,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5283.jpeg",
+    "fullPath": "./photos/IMG_5283.jpeg",
     "thumbnail": "./thumbnails/IMG_5283.jpeg",
     "latitude": 50.931417,
     "longitude": 6.936794,
@@ -1905,7 +1905,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5296.jpeg",
+    "fullPath": "./photos/IMG_5296.jpeg",
     "thumbnail": "./thumbnails/IMG_5296.jpeg",
     "latitude": 50.928122,
     "longitude": 6.909361,
@@ -1920,7 +1920,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5325.jpeg",
+    "fullPath": "./photos/IMG_5325.jpeg",
     "thumbnail": "./thumbnails/IMG_5325.jpeg",
     "latitude": 50.922511,
     "longitude": 6.916933,
@@ -1935,7 +1935,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5285.jpeg",
+    "fullPath": "./photos/IMG_5285.jpeg",
     "thumbnail": "./thumbnails/IMG_5285.jpeg",
     "latitude": 50.931044,
     "longitude": 6.936614,
@@ -1950,7 +1950,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5284.jpeg",
+    "fullPath": "./photos/IMG_5284.jpeg",
     "thumbnail": "./thumbnails/IMG_5284.jpeg",
     "latitude": 50.931419,
     "longitude": 6.936747,
@@ -1965,7 +1965,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5364.jpeg",
+    "fullPath": "./photos/IMG_5364.jpeg",
     "thumbnail": "./thumbnails/IMG_5364.jpeg",
     "latitude": 50.937069,
     "longitude": 6.912086,
@@ -1980,7 +1980,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5392.jpeg",
+    "fullPath": "./photos/IMG_5392.jpeg",
     "thumbnail": "./thumbnails/IMG_5392.jpeg",
     "latitude": 50.943947,
     "longitude": 6.898211,
@@ -1995,7 +1995,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5365.jpeg",
+    "fullPath": "./photos/IMG_5365.jpeg",
     "thumbnail": "./thumbnails/IMG_5365.jpeg",
     "latitude": 50.923981,
     "longitude": 6.912233,
@@ -2010,7 +2010,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5534.jpeg",
+    "fullPath": "./photos/IMG_5534.jpeg",
     "thumbnail": "./thumbnails/IMG_5534.jpeg",
     "latitude": 51.47795,
     "longitude": -0.058275,
@@ -2025,7 +2025,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5535.jpeg",
+    "fullPath": "./photos/IMG_5535.jpeg",
     "thumbnail": "./thumbnails/IMG_5535.jpeg",
     "latitude": 51.477908,
     "longitude": -0.058192,
@@ -2040,7 +2040,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5536.jpeg",
+    "fullPath": "./photos/IMG_5536.jpeg",
     "thumbnail": "./thumbnails/IMG_5536.jpeg",
     "latitude": 51.477906,
     "longitude": -0.058144,
@@ -2055,7 +2055,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5538.jpeg",
+    "fullPath": "./photos/IMG_5538.jpeg",
     "thumbnail": "./thumbnails/IMG_5538.jpeg",
     "latitude": 51.477906,
     "longitude": -0.058142,
@@ -2070,7 +2070,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5537.jpeg",
+    "fullPath": "./photos/IMG_5537.jpeg",
     "thumbnail": "./thumbnails/IMG_5537.jpeg",
     "latitude": 51.477906,
     "longitude": -0.058144,
@@ -2085,7 +2085,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5684.jpeg",
+    "fullPath": "./photos/IMG_5684.jpeg",
     "thumbnail": "./thumbnails/IMG_5684.jpeg",
     "latitude": 54.387439,
     "longitude": -3.038261,
@@ -2100,7 +2100,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5715.jpeg",
+    "fullPath": "./photos/IMG_5715.jpeg",
     "thumbnail": "./thumbnails/IMG_5715.jpeg",
     "latitude": 54.438725,
     "longitude": -3.049956,
@@ -2115,7 +2115,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5794.jpeg",
+    "fullPath": "./photos/IMG_5794.jpeg",
     "thumbnail": "./thumbnails/IMG_5794.jpeg",
     "latitude": 54.515458,
     "longitude": -3.145383,
@@ -2130,7 +2130,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5813.jpeg",
+    "fullPath": "./photos/IMG_5813.jpeg",
     "thumbnail": "./thumbnails/IMG_5813.jpeg",
     "latitude": 54.597703,
     "longitude": -3.158631,
@@ -2145,7 +2145,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_6021.jpeg",
+    "fullPath": "./photos/IMG_6021.jpeg",
     "thumbnail": "./thumbnails/IMG_6021.jpeg",
     "latitude": 55.662781,
     "longitude": 12.626547,
@@ -2160,7 +2160,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_5741.jpeg",
+    "fullPath": "./photos/IMG_5741.jpeg",
     "thumbnail": "./thumbnails/IMG_5741.jpeg",
     "latitude": 54.442222,
     "longitude": -3.100536,
@@ -2175,7 +2175,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_6029.jpeg",
+    "fullPath": "./photos/IMG_6029.jpeg",
     "thumbnail": "./thumbnails/IMG_6029.jpeg",
     "latitude": 55.664167,
     "longitude": 12.618044,
@@ -2190,7 +2190,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_6262.jpeg",
+    "fullPath": "./photos/IMG_6262.jpeg",
     "thumbnail": "./thumbnails/IMG_6262.jpeg",
     "latitude": 53.483772,
     "longitude": -2.233833,
@@ -2205,7 +2205,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_6238.jpeg",
+    "fullPath": "./photos/IMG_6238.jpeg",
     "thumbnail": "./thumbnails/IMG_6238.jpeg",
     "latitude": 54.893136,
     "longitude": -2.924419,
@@ -2220,7 +2220,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_6710.jpeg",
+    "fullPath": "./photos/IMG_6710.jpeg",
     "thumbnail": "./thumbnails/IMG_6710.jpeg",
     "latitude": 51.198325,
     "longitude": 6.683969,
@@ -2235,7 +2235,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7132.jpeg",
+    "fullPath": "./photos/IMG_7132.jpeg",
     "thumbnail": "./thumbnails/IMG_7132.jpeg",
     "latitude": 50.931122,
     "longitude": 6.911794,
@@ -2250,7 +2250,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7133.jpeg",
+    "fullPath": "./photos/IMG_7133.jpeg",
     "thumbnail": "./thumbnails/IMG_7133.jpeg",
     "latitude": 50.931083,
     "longitude": 6.912147,
@@ -2265,7 +2265,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7535.jpeg",
+    "fullPath": "./photos/IMG_7535.jpeg",
     "thumbnail": "./thumbnails/IMG_7535.jpeg",
     "latitude": 50.929908,
     "longitude": 6.887406,
@@ -2280,7 +2280,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7541.jpeg",
+    "fullPath": "./photos/IMG_7541.jpeg",
     "thumbnail": "./thumbnails/IMG_7541.jpeg",
     "latitude": 50.941453,
     "longitude": 6.900689,
@@ -2295,7 +2295,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7257.jpeg",
+    "fullPath": "./photos/IMG_7257.jpeg",
     "thumbnail": "./thumbnails/IMG_7257.jpeg",
     "latitude": 50.963078,
     "longitude": 6.955417,
@@ -2310,7 +2310,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7448.jpeg",
+    "fullPath": "./photos/IMG_7448.jpeg",
     "thumbnail": "./thumbnails/IMG_7448.jpeg",
     "latitude": 50.957753,
     "longitude": 6.953089,
@@ -2325,7 +2325,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7441.jpeg",
+    "fullPath": "./photos/IMG_7441.jpeg",
     "thumbnail": "./thumbnails/IMG_7441.jpeg",
     "latitude": 51.082856,
     "longitude": 6.789597,
@@ -2340,7 +2340,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7659.jpeg",
+    "fullPath": "./photos/IMG_7659.jpeg",
     "thumbnail": "./thumbnails/IMG_7659.jpeg",
     "latitude": 48.138542,
     "longitude": 11.573092,
@@ -2355,7 +2355,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7637.jpeg",
+    "fullPath": "./photos/IMG_7637.jpeg",
     "thumbnail": "./thumbnails/IMG_7637.jpeg",
     "latitude": 50.919369,
     "longitude": 6.918086,
@@ -2370,7 +2370,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7689.jpeg",
+    "fullPath": "./photos/IMG_7689.jpeg",
     "thumbnail": "./thumbnails/IMG_7689.jpeg",
     "latitude": 48.146694,
     "longitude": 11.571256,
@@ -2385,7 +2385,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7636.jpeg",
+    "fullPath": "./photos/IMG_7636.jpeg",
     "thumbnail": "./thumbnails/IMG_7636.jpeg",
     "latitude": 50.917678,
     "longitude": 6.919142,
@@ -2400,7 +2400,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7697.jpeg",
+    "fullPath": "./photos/IMG_7697.jpeg",
     "thumbnail": "./thumbnails/IMG_7697.jpeg",
     "latitude": 48.152119,
     "longitude": 11.565183,
@@ -2415,7 +2415,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7699.jpeg",
+    "fullPath": "./photos/IMG_7699.jpeg",
     "thumbnail": "./thumbnails/IMG_7699.jpeg",
     "latitude": 48.142186,
     "longitude": 11.565628,
@@ -2430,7 +2430,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7756.jpeg",
+    "fullPath": "./photos/IMG_7756.jpeg",
     "thumbnail": "./thumbnails/IMG_7756.jpeg",
     "latitude": 43.767311,
     "longitude": 11.253875,
@@ -2445,7 +2445,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7805.jpeg",
+    "fullPath": "./photos/IMG_7805.jpeg",
     "thumbnail": "./thumbnails/IMG_7805.jpeg",
     "latitude": 43.057972,
     "longitude": 12.580033,
@@ -2460,7 +2460,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7797.jpeg",
+    "fullPath": "./photos/IMG_7797.jpeg",
     "thumbnail": "./thumbnails/IMG_7797.jpeg",
     "latitude": 43.775892,
     "longitude": 11.248861,
@@ -2475,7 +2475,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7806.jpeg",
+    "fullPath": "./photos/IMG_7806.jpeg",
     "thumbnail": "./thumbnails/IMG_7806.jpeg",
     "latitude": 43.058239,
     "longitude": 12.579447,
@@ -2490,7 +2490,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7848.jpeg",
+    "fullPath": "./photos/IMG_7848.jpeg",
     "thumbnail": "./thumbnails/IMG_7848.jpeg",
     "latitude": 43.068967,
     "longitude": 12.616756,
@@ -2505,7 +2505,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7847.jpeg",
+    "fullPath": "./photos/IMG_7847.jpeg",
     "thumbnail": "./thumbnails/IMG_7847.jpeg",
     "latitude": 43.069267,
     "longitude": 12.616842,
@@ -2520,7 +2520,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7852.jpeg",
+    "fullPath": "./photos/IMG_7852.jpeg",
     "thumbnail": "./thumbnails/IMG_7852.jpeg",
     "latitude": 43.070689,
     "longitude": 12.617442,
@@ -2535,7 +2535,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7808.jpeg",
+    "fullPath": "./photos/IMG_7808.jpeg",
     "thumbnail": "./thumbnails/IMG_7808.jpeg",
     "latitude": 43.058108,
     "longitude": 12.579128,
@@ -2550,7 +2550,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7855.jpeg",
+    "fullPath": "./photos/IMG_7855.jpeg",
     "thumbnail": "./thumbnails/IMG_7855.jpeg",
     "latitude": 43.071275,
     "longitude": 12.614436,
@@ -2565,7 +2565,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7860.jpeg",
+    "fullPath": "./photos/IMG_7860.jpeg",
     "thumbnail": "./thumbnails/IMG_7860.jpeg",
     "latitude": 43.075111,
     "longitude": 12.605453,
@@ -2580,7 +2580,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7863.jpeg",
+    "fullPath": "./photos/IMG_7863.jpeg",
     "thumbnail": "./thumbnails/IMG_7863.jpeg",
     "latitude": 43.076942,
     "longitude": 12.6143,
@@ -2595,7 +2595,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7856.jpeg",
+    "fullPath": "./photos/IMG_7856.jpeg",
     "thumbnail": "./thumbnails/IMG_7856.jpeg",
     "latitude": 43.064128,
     "longitude": 12.6212,
@@ -2610,7 +2610,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7915.jpeg",
+    "fullPath": "./photos/IMG_7915.jpeg",
     "thumbnail": "./thumbnails/IMG_7915.jpeg",
     "latitude": 43.058572,
     "longitude": 12.574739,
@@ -2625,7 +2625,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7916.jpeg",
+    "fullPath": "./photos/IMG_7916.jpeg",
     "thumbnail": "./thumbnails/IMG_7916.jpeg",
     "latitude": 43.059156,
     "longitude": 12.573403,
@@ -2640,7 +2640,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8095.jpeg",
+    "fullPath": "./photos/IMG_8095.jpeg",
     "thumbnail": "./thumbnails/IMG_8095.jpeg",
     "latitude": 50.945439,
     "longitude": 6.973914,
@@ -2655,7 +2655,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8135.jpeg",
+    "fullPath": "./photos/IMG_8135.jpeg",
     "thumbnail": "./thumbnails/IMG_8135.jpeg",
     "latitude": 50.936642,
     "longitude": 6.932206,
@@ -2670,7 +2670,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_7941.jpeg",
+    "fullPath": "./photos/IMG_7941.jpeg",
     "thumbnail": "./thumbnails/IMG_7941.jpeg",
     "latitude": 41.910164,
     "longitude": 12.530144,
@@ -2685,7 +2685,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8242.jpeg",
+    "fullPath": "./photos/IMG_8242.jpeg",
     "thumbnail": "./thumbnails/IMG_8242.jpeg",
     "latitude": 50.889808,
     "longitude": 6.984944,
@@ -2700,7 +2700,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8243.jpeg",
+    "fullPath": "./photos/IMG_8243.jpeg",
     "thumbnail": "./thumbnails/IMG_8243.jpeg",
     "latitude": 50.889828,
     "longitude": 6.984939,
@@ -2715,7 +2715,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8370.jpeg",
+    "fullPath": "./photos/IMG_8370.jpeg",
     "thumbnail": "./thumbnails/IMG_8370.jpeg",
     "latitude": 51.915547,
     "longitude": 4.486558,
@@ -2730,7 +2730,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8360.jpeg",
+    "fullPath": "./photos/IMG_8360.jpeg",
     "thumbnail": "./thumbnails/IMG_8360.jpeg",
     "latitude": 51.903953,
     "longitude": 4.484356,
@@ -2745,7 +2745,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8306.jpeg",
+    "fullPath": "./photos/IMG_8306.jpeg",
     "thumbnail": "./thumbnails/IMG_8306.jpeg",
     "latitude": 51.447406,
     "longitude": 7.013478,
@@ -2760,7 +2760,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8247.jpeg",
+    "fullPath": "./photos/IMG_8247.jpeg",
     "thumbnail": "./thumbnails/IMG_8247.jpeg",
     "latitude": 50.887322,
     "longitude": 6.985858,
@@ -2775,7 +2775,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8373.jpeg",
+    "fullPath": "./photos/IMG_8373.jpeg",
     "thumbnail": "./thumbnails/IMG_8373.jpeg",
     "latitude": 51.903575,
     "longitude": 4.468453,
@@ -2790,7 +2790,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8377.jpeg",
+    "fullPath": "./photos/IMG_8377.jpeg",
     "thumbnail": "./thumbnails/IMG_8377.jpeg",
     "latitude": 51.913911,
     "longitude": 4.471517,
@@ -2805,7 +2805,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8476.jpeg",
+    "fullPath": "./photos/IMG_8476.jpeg",
     "thumbnail": "./thumbnails/IMG_8476.jpeg",
     "latitude": 50.950714,
     "longitude": 6.915992,
@@ -2820,7 +2820,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8428.jpeg",
+    "fullPath": "./photos/IMG_8428.jpeg",
     "thumbnail": "./thumbnails/IMG_8428.jpeg",
     "latitude": 52.003833,
     "longitude": 8.578392,
@@ -2835,7 +2835,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8557.jpeg",
+    "fullPath": "./photos/IMG_8557.jpeg",
     "thumbnail": "./thumbnails/IMG_8557.jpeg",
     "latitude": 53.621875,
     "longitude": 7.1583,
@@ -2850,7 +2850,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8558.jpeg",
+    "fullPath": "./photos/IMG_8558.jpeg",
     "thumbnail": "./thumbnails/IMG_8558.jpeg",
     "latitude": 53.618194,
     "longitude": 7.160189,
@@ -2865,7 +2865,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8860.jpeg",
+    "fullPath": "./photos/IMG_8860.jpeg",
     "thumbnail": "./thumbnails/IMG_8860.jpeg",
     "latitude": 50.933858,
     "longitude": 6.920133,
@@ -2880,7 +2880,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9066.jpeg",
+    "fullPath": "./photos/IMG_9066.jpeg",
     "thumbnail": "./thumbnails/IMG_9066.jpeg",
     "latitude": 50.944108,
     "longitude": 6.898453,
@@ -2895,7 +2895,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9079.jpeg",
+    "fullPath": "./photos/IMG_9079.jpeg",
     "thumbnail": "./thumbnails/IMG_9079.jpeg",
     "latitude": 50.933636,
     "longitude": 6.921792,
@@ -2910,7 +2910,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8864.jpeg",
+    "fullPath": "./photos/IMG_8864.jpeg",
     "thumbnail": "./thumbnails/IMG_8864.jpeg",
     "latitude": 50.917283,
     "longitude": 6.925067,
@@ -2925,7 +2925,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_8890.jpeg",
+    "fullPath": "./photos/IMG_8890.jpeg",
     "thumbnail": "./thumbnails/IMG_8890.jpeg",
     "latitude": 52.372281,
     "longitude": 9.740397,
@@ -2940,7 +2940,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9099.jpeg",
+    "fullPath": "./photos/IMG_9099.jpeg",
     "thumbnail": "./thumbnails/IMG_9099.jpeg",
     "latitude": 50.929189,
     "longitude": 6.912364,
@@ -2955,7 +2955,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9172.jpeg",
+    "fullPath": "./photos/IMG_9172.jpeg",
     "thumbnail": "./thumbnails/IMG_9172.jpeg",
     "latitude": 50.928753,
     "longitude": 6.894172,
@@ -2970,7 +2970,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9152.jpeg",
+    "fullPath": "./photos/IMG_9152.jpeg",
     "thumbnail": "./thumbnails/IMG_9152.jpeg",
     "latitude": 51.129653,
     "longitude": 6.590639,
@@ -2985,7 +2985,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9101.jpeg",
+    "fullPath": "./photos/IMG_9101.jpeg",
     "thumbnail": "./thumbnails/IMG_9101.jpeg",
     "latitude": 50.9304,
     "longitude": 6.915756,
@@ -3000,7 +3000,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9173.jpeg",
+    "fullPath": "./photos/IMG_9173.jpeg",
     "thumbnail": "./thumbnails/IMG_9173.jpeg",
     "latitude": 50.924825,
     "longitude": 6.9169,
@@ -3015,7 +3015,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9260.jpeg",
+    "fullPath": "./photos/IMG_9260.jpeg",
     "thumbnail": "./thumbnails/IMG_9260.jpeg",
     "latitude": 52.082622,
     "longitude": 4.300481,
@@ -3030,7 +3030,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9176.jpeg",
+    "fullPath": "./photos/IMG_9176.jpeg",
     "thumbnail": "./thumbnails/IMG_9176.jpeg",
     "latitude": 50.923111,
     "longitude": 6.895853,
@@ -3045,7 +3045,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9259.jpeg",
+    "fullPath": "./photos/IMG_9259.jpeg",
     "thumbnail": "./thumbnails/IMG_9259.jpeg",
     "latitude": 52.082589,
     "longitude": 4.300517,
@@ -3060,7 +3060,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9263.jpeg",
+    "fullPath": "./photos/IMG_9263.jpeg",
     "thumbnail": "./thumbnails/IMG_9263.jpeg",
     "latitude": 52.104347,
     "longitude": 4.301428,
@@ -3075,7 +3075,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9268.jpeg",
+    "fullPath": "./photos/IMG_9268.jpeg",
     "thumbnail": "./thumbnails/IMG_9268.jpeg",
     "latitude": 52.126514,
     "longitude": 4.300147,
@@ -3090,7 +3090,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9422.jpeg",
+    "fullPath": "./photos/IMG_9422.jpeg",
     "thumbnail": "./thumbnails/IMG_9422.jpeg",
     "latitude": 35.696242,
     "longitude": 139.570461,
@@ -3105,7 +3105,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9409.jpeg",
+    "fullPath": "./photos/IMG_9409.jpeg",
     "thumbnail": "./thumbnails/IMG_9409.jpeg",
     "latitude": 50.936236,
     "longitude": 6.900686,
@@ -3120,7 +3120,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9290.jpeg",
+    "fullPath": "./photos/IMG_9290.jpeg",
     "thumbnail": "./thumbnails/IMG_9290.jpeg",
     "latitude": 52.080911,
     "longitude": 4.322528,
@@ -3135,7 +3135,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9273.jpeg",
+    "fullPath": "./photos/IMG_9273.jpeg",
     "thumbnail": "./thumbnails/IMG_9273.jpeg",
     "latitude": 52.125694,
     "longitude": 4.301272,
@@ -3150,7 +3150,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9460.jpeg",
+    "fullPath": "./photos/IMG_9460.jpeg",
     "thumbnail": "./thumbnails/IMG_9460.jpeg",
     "latitude": 50.928344,
     "longitude": 6.904922,
@@ -3165,7 +3165,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9549.jpeg",
+    "fullPath": "./photos/IMG_9549.jpeg",
     "thumbnail": "./thumbnails/IMG_9549.jpeg",
     "latitude": 50.947617,
     "longitude": 6.90455,
@@ -3180,7 +3180,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9662.jpeg",
+    "fullPath": "./photos/IMG_9662.jpeg",
     "thumbnail": "./thumbnails/IMG_9662.jpeg",
     "latitude": 48.862531,
     "longitude": 2.330825,
@@ -3195,7 +3195,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9657.jpeg",
+    "fullPath": "./photos/IMG_9657.jpeg",
     "thumbnail": "./thumbnails/IMG_9657.jpeg",
     "latitude": 48.867431,
     "longitude": 2.353478,
@@ -3210,7 +3210,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9509.jpeg",
+    "fullPath": "./photos/IMG_9509.jpeg",
     "thumbnail": "./thumbnails/IMG_9509.jpeg",
     "latitude": 50.915303,
     "longitude": 6.900019,
@@ -3225,7 +3225,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9679.jpeg",
+    "fullPath": "./photos/IMG_9679.jpeg",
     "thumbnail": "./thumbnails/IMG_9679.jpeg",
     "latitude": 48.884272,
     "longitude": 2.343606,
@@ -3240,7 +3240,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9829.jpeg",
+    "fullPath": "./photos/IMG_9829.jpeg",
     "thumbnail": "./thumbnails/IMG_9829.jpeg",
     "latitude": 52.018867,
     "longitude": 8.541322,
@@ -3255,7 +3255,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9828.jpeg",
+    "fullPath": "./photos/IMG_9828.jpeg",
     "thumbnail": "./thumbnails/IMG_9828.jpeg",
     "latitude": 52.019058,
     "longitude": 8.541336,
@@ -3270,7 +3270,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9834.jpeg",
+    "fullPath": "./photos/IMG_9834.jpeg",
     "thumbnail": "./thumbnails/IMG_9834.jpeg",
     "latitude": 52.005394,
     "longitude": 8.574456,
@@ -3285,7 +3285,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9897.jpeg",
+    "fullPath": "./photos/IMG_9897.jpeg",
     "thumbnail": "./thumbnails/IMG_9897.jpeg",
     "latitude": 50.855597,
     "longitude": 5.686236,
@@ -3300,7 +3300,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9855.jpeg",
+    "fullPath": "./photos/IMG_9855.jpeg",
     "thumbnail": "./thumbnails/IMG_9855.jpeg",
     "latitude": 50.929714,
     "longitude": 6.937644,
@@ -3315,7 +3315,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/c422c5d0-cf28-4095-9355-bb5e839c4c23.jpeg",
+    "fullPath": "./photos/c422c5d0-cf28-4095-9355-bb5e839c4c23.jpeg",
     "thumbnail": "./thumbnails/c422c5d0-cf28-4095-9355-bb5e839c4c23.jpeg",
     "latitude": 59.313347,
     "longitude": 18.060767,
@@ -3330,7 +3330,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9916.jpeg",
+    "fullPath": "./photos/IMG_9916.jpeg",
     "thumbnail": "./thumbnails/IMG_9916.jpeg",
     "latitude": 53.099483,
     "longitude": 6.103611,
@@ -3345,7 +3345,7 @@ const photoData = [
     }
   },
   {
-    "fullPath": "../photos/IMG_9930.jpeg",
+    "fullPath": "./photos/IMG_9930.jpeg",
     "thumbnail": "./thumbnails/IMG_9930.jpeg",
     "latitude": 53.169503,
     "longitude": 5.415956,
