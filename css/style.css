@@ -1,0 +1,1010 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Update header styles */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Update title section */
+.title-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.logo-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.title-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.site-logo {
+    width: 50px;
+    height: 50px;
+    filter: invert(0%); /* Makes it black by default */
+}
+
+.site-header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    letter-spacing: -0.5px;
+    line-height: 1;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .site-header h1 {
+        color: #fff;
+    }
+
+    .site-logo {
+        filter: invert(100%); /* Makes it white in dark mode */
+    }
+}
+
+.site-header .subtitle {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+/* Remove upload section styles */
+
+/* Map styles */
+#map {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+    z-index: 1;
+}
+
+/* Custom map style overrides */
+.leaflet-control-zoom {
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-control-zoom a {
+    border: none !important;
+    background: white !important;
+    color: #333 !important;
+}
+
+.leaflet-control-zoom a:first-child {
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.leaflet-control-zoom a:last-child {
+    border-radius: 0 0 8px 8px !important;
+}
+
+/* Photo marker styles */
+.photo-marker {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.photo-marker:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-marker img {
+    transition: filter 0.3s ease;
+}
+
+.photo-marker:hover img {
+    filter: brightness(1.1);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: background-color 0.5s ease, opacity 0.5s ease; /* Changed from 0.3s to 0.8s */
+    backdrop-filter: blur(0);
+    -webkit-backdrop-filter: blur(0);
+}
+
+.modal.show {
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 24px;
+    width: 90%;
+    max-width: 1000px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Navigation buttons */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 1002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-button:hover {
+    background: white;
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button.prev {
+    left: -20px;
+}
+
+.nav-button.next {
+    right: -20px;
+}
+
+.nav-button.hidden {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.2s ease;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 0;
+    z-index: 1002;
+}
+
+.close:hover {
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(90deg);
+}
+
+#modal-image {
+    max-width: 100%;
+    max-height: 70vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Update modal info styles for better contrast */
+#modal-info {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+#modal-info p {
+    margin: 0;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Update separator rules - only apply to location info */
+#modal-info .location-city,
+#modal-info .location-country {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    color: #333;
+}
+
+/* Remove border from photo-date */
+#modal-info .photo-date {
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    color: #333;
+}
+
+/* Remove bottom border from last location info */
+#modal-info .location-country {
+    margin-bottom: 0;
+}
+
+/* Make the text and spacing more compact */
+#modal-info strong {
+    color: #1a1a1a;
+    font-weight: 500;
+    margin-right: 8px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    min-width: 70px;
+    display: inline-block;
+}
+
+/* Update the address section spacing */
+#modal-info .location-address {
+    margin-top: 10px;
+    padding-top: 10px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#modal-info p:first-child {
+    padding-top: 0;
+}
+
+#modal-info p:last-child {
+    padding-bottom: 0;
+}
+
+#modal-info strong {
+    color: #1a1a1a;
+    font-weight: 500;
+    margin-right: 8px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#modal-info a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#modal-info a:hover {
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .site-header {
+        padding: 0.5rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .title-section {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .filter-section {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .filters-wrapper {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .filter-group {
+        flex: 1;
+    }
+
+    .country-filter,
+    .city-filter {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .site-header {
+        background: rgba(0, 0, 0, 0.85);
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .site-header h1 {
+        color: #fff;
+    }
+
+    .site-header .subtitle {
+        color: #999;
+    }
+}
+
+/* Update filter section styles */
+.filter-section {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filters-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: auto;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+/* Common styles for both filters */
+.country-filter,
+.city-filter {
+    padding: 0.4rem 2rem 0.4rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    min-width: 160px;
+}
+
+.filter-group label {
+    font-size: 0.7rem;
+}
+
+/* Disabled state for city filter */
+.city-filter.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #f5f5f5;
+    border-color: rgba(0, 0, 0, 0.05);
+    pointer-events: none;
+}
+
+.city-label.disabled {
+    opacity: 0.5;
+}
+
+/* Hover and focus states */
+.country-filter:hover,
+.city-filter:not(.disabled):hover {
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: #fafafa;
+}
+
+.country-filter:focus,
+.city-filter:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .country-filter,
+    .city-filter {
+        background-color: #2a2a2a;
+        border-color: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+
+    .filter-group label {
+        color: #ccc;
+    }
+
+    .country-filter:hover,
+    .city-filter:not(.disabled):hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        background-color: #333;
+    }
+
+    .city-filter.disabled {
+        background-color: #222;
+        border-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .city-label.disabled {
+        opacity: 0.4;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .filter-section {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .filters-wrapper {
+        width: 100%;
+    }
+} 
+
+/* Update navigation button styles */
+.nav-button.north {
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-button.south {
+    bottom: -20px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-button.north:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+.nav-button.south:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+/* Update responsive styles */
+@media (max-width: 768px) {
+    .nav-button.north {
+        top: -18px;
+    }
+    
+    .nav-button.south {
+        bottom: -18px;
+    }
+} 
+
+/* Add new styles for compact mode */
+.modal.compact {
+    background-color: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    pointer-events: none; /* Allow clicking through the backdrop */
+}
+
+.modal.compact .modal-content {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 33vw; /* One third of viewport width */
+    max-width: 500px;
+    min-width: 300px;
+    top: auto;
+    transform: none;
+    padding: 16px;
+    pointer-events: auto; /* Ensure the content is still clickable */
+}
+
+.modal.compact #modal-image {
+    max-height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Compact mode adjustments */
+.modal.compact #modal-info {
+    max-height: 140px;
+    overflow-y: auto;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 0.9rem;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.modal.compact #modal-info::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal.compact #modal-info::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal.compact #modal-info::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .modal.compact .modal-content {
+        background-color: rgba(26, 26, 26, 0.95);
+    }
+
+    .modal.compact #modal-info::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* Add toggle button styles */
+.view-toggle {
+    position: absolute;
+    top: 15px;
+    right: 65px; /* Position next to close button */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 1002;
+}
+
+.view-toggle:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust navigation buttons for compact mode */
+.modal.compact .nav-button {
+    transform: scale(0.8);
+}
+
+.modal.compact .nav-button.north {
+    top: -15px;
+}
+
+.modal.compact .nav-button.south {
+    bottom: -15px;
+}
+
+.modal.compact .nav-button.prev {
+    left: -15px;
+}
+
+.modal.compact .nav-button.next {
+    right: -15px;
+}
+
+/* Dark mode support for new elements */
+@media (prefers-color-scheme: dark) {
+    .view-toggle {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+
+    .view-toggle:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* Responsive adjustments for compact mode */
+@media (max-width: 768px) {
+    .modal.compact .modal-content {
+        width: 90vw;
+        bottom: 10px;
+        right: 10px;
+    }
+} 
+
+/* Make sure buttons are clickable in compact mode */
+.modal.compact .nav-button,
+.modal.compact .close,
+.modal.compact .view-toggle {
+    pointer-events: auto;
+} 
+
+/* Update the nav-mode-toggle styles for text-based display */
+.nav-mode-toggle {
+    position: absolute;
+    top: 15px;
+    right: 110px;
+    padding: 0 12px;
+    height: 36px;
+    border-radius: 18px; /* Make it more pill-shaped for text */
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 1002;
+    font-size: 0.85rem;
+    font-weight: 500;
+    white-space: nowrap;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.nav-mode-toggle:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: scale(1.05);
+}
+
+/* Style for directional mode */
+.nav-mode-toggle.directional {
+    background: rgba(0, 128, 255, 0.15);
+    color: #0066cc;
+}
+
+.nav-mode-toggle.directional:hover {
+    background: rgba(0, 128, 255, 0.25);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .nav-mode-toggle {
+        background: rgba(40, 40, 40, 0.8);
+        border-color: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .nav-mode-toggle:hover {
+        background: rgba(60, 60, 60, 0.95);
+    }
+
+    .nav-mode-toggle.directional {
+        background: rgba(0, 128, 255, 0.25);
+        color: #66b3ff;
+    }
+
+    .nav-mode-toggle.directional:hover {
+        background: rgba(0, 128, 255, 0.35);
+    }
+}
+
+/* Adjust compact mode positioning */
+.modal.compact .nav-mode-toggle {
+    top: -45px;
+    right: 90px;
+}
+
+/* Add highlight animation for markers */
+.photo-marker {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.photo-marker.highlighted {
+    transform: scale(1.1);
+    z-index: 1000;
+} 
+
+/* Update the control buttons positioning for both modes */
+.modal .close,
+.modal .view-toggle,
+.modal .nav-mode-toggle {
+    position: absolute;
+    top: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1003;
+}
+
+.modal .close {
+    right: 20px;
+}
+
+.modal .view-toggle {
+    right: 65px;
+}
+
+.modal .nav-mode-toggle {
+    right: 110px;
+}
+
+/* Keep existing compact mode specific overrides */
+.modal.compact .close,
+.modal.compact .view-toggle,
+.modal.compact .nav-mode-toggle {
+    top: -45px;
+}
+
+.modal.compact .close {
+    right: 0;
+}
+
+.modal.compact .view-toggle {
+    right: 45px;
+}
+
+.modal.compact .nav-mode-toggle {
+    right: 90px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .modal .close,
+    .modal .view-toggle,
+    .modal .nav-mode-toggle {
+        background: rgba(40, 40, 40, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* Keep navigation arrows with modern styling */
+.modal.compact .nav-button {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Hover effects for all buttons */
+.modal.compact .close:hover,
+.modal.compact .view-toggle:hover,
+.modal.compact .nav-mode-toggle:hover,
+.modal.compact .nav-button:hover {
+    background: rgba(255, 255, 255, 0.95);
+    transform: scale(1.1);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .modal.compact .close,
+    .modal.compact .view-toggle,
+    .modal.compact .nav-mode-toggle,
+    .modal.compact .nav-button {
+        background: rgba(40, 40, 40, 0.95);
+        color: rgba(255, 255, 255, 0.9); /* Add this to make arrows white */
+    }
+
+    .modal.compact .close:hover,
+    .modal.compact .view-toggle:hover,
+    .modal.compact .nav-mode-toggle:hover,
+    .modal.compact .nav-button:hover {
+        background: rgba(60, 60, 60, 0.95);
+        color: #ffffff; /* Brighter white on hover */
+    }
+} 
+
+/* Update styles for the location address with separate lines */
+#modal-info .location-address {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 8px;
+    padding-top: 8px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#modal-info .location-address a {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+#modal-info .location-address .maps-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #1a73e8; /* Google Maps blue */
+    font-weight: 500;
+}
+
+#modal-info .location-address .maps-label::before {
+    content: "📍"; /* Map pin emoji */
+    font-size: 1.1em;
+}
+
+#modal-info .location-address .address-text {
+    color: #666;
+    line-height: 1.4;
+}
+
+#modal-info .location-address a:hover .address-text {
+    color: #1a73e8; /* Google Maps blue */
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    #modal-info .location-address {
+        color: #999;
+        border-top-color: rgba(255, 255, 255, 0.05);
+    }
+
+    #modal-info .location-address .maps-label {
+        color: #8ab4f8; /* Light blue for dark mode */
+    }
+
+    #modal-info .location-address .address-text {
+        color: #999;
+    }
+
+    #modal-info .location-address a:hover .address-text {
+        color: #8ab4f8; /* Light blue for dark mode */
+    }
+} 
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    #modal-info .photo-date,
+    #modal-info .location-city,
+    #modal-info .location-country {
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #modal-info .location-address {
+        border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #modal-info strong {
+        color: rgba(255, 255, 255, 0.9);
+    }
+} 
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    #modal-info {
+        background-color: #2a2a2a;
+        color: #e0e0e0; /* Light gray text for dark mode */
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #modal-info .photo-date,
+    #modal-info .location-city,
+    #modal-info .location-country {
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+        color: #e0e0e0; /* Light gray text for dark mode */
+    }
+
+    #modal-info strong {
+        color: rgba(255, 255, 255, 0.9);
+    }
+} 
+
+/* Update maps link styling for top position */
+#modal-info .maps-link {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#modal-info .maps-link a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #1a73e8; /* Google Maps blue */
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+#modal-info .maps-link .maps-label::before {
+    content: "📍"; /* Map pin emoji */
+    font-size: 1.1em;
+}
+
+/* Update the address section styling */
+#modal-info .location-address {
+    margin-top: 12px;
+    padding-top: 12px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.4;
+}
+
+#modal-info .location-address .address-text {
+    color: #666;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    #modal-info .maps-link {
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #modal-info .maps-link a {
+        color: #8ab4f8; /* Light blue for dark mode */
+    }
+
+    #modal-info .location-address {
+        color: #999;
+        border-top-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #modal-info .location-address .address-text {
+        color: #999;
+    }
+} 
+
+/* Update the compact mode button positioning */
+.modal.compact .close,
+.modal.compact .view-toggle,
+.modal.compact .nav-mode-toggle {
+    top: -55px; /* Changed from -45px to -55px to move buttons higher */
+}
+
+.modal.compact .close {
+    right: 0;
+}
+
+.modal.compact .view-toggle {
+    right: 45px;
+}
+
+.modal.compact .nav-mode-toggle {
+    right: 90px;
+} 

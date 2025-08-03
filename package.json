@@ -1,0 +1,27 @@
+{
+  "name": "funmap",
+  "version": "1.0.0",
+  "description": "A photo map viewer using OpenStreetMap",
+  "main": "process-photos.js",
+  "scripts": {
+    "process": "node process-photos.js",
+    "start": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000"
+  },
+  "dependencies": {
+    "exifreader": "^4.17.0",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.34.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hundisnor/losandos.github.io.git"
+  },
+  "keywords": [
+    "photos",
+    "map",
+    "gps",
+    "gallery"
+  ],
+  "author": "",
+  "license": "MIT"
+}

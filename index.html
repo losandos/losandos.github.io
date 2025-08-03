@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A photo journey through the world - Interactive map of travel memories">
+    <meta name="theme-color" content="#ffffff">
+    <title>Hund i Snor - Photo Journey</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Update the header section -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="title-section">
+                <div class="logo-title-wrapper">
+                    <img src="logo/logo.svg" alt="Dog on leash logo" class="site-logo">
+                    <div class="title-text-wrapper">
+                        <h1>Hund i Snor</h1>
+                        <p class="subtitle">Dog Etiquette - Around the world</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Filter section will be added here dynamically -->
+        </div>
+    </header>
+
+    <main>
+        <div id="map" role="application" aria-label="Interactive map showing photo locations"></div>
+    </main>
+
+    <div id="photo-modal" class="modal" role="dialog" aria-label="Photo details">
+        <div class="modal-content">
+            <button class="close" aria-label="Close photo details">&times;</button>
+            <button class="nav-button prev" aria-label="Previous photo">&larr;</button>
+            <button class="nav-button next" aria-label="Next photo">&rarr;</button>
+            <img id="modal-image" src="" alt="Location photo">
+            <div id="modal-info" role="complementary"></div>
+        </div>
+    </div>
+
+    <!-- ExifReader is no longer needed, remove it -->
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Load photoData first -->
+    <script src="js/photoData.js"></script>
+    <!-- Then load main.js -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
